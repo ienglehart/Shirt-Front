@@ -17,9 +17,9 @@ class App extends Component {
         <Nav />
 
         <Switch>
-          <Route exact path="/Shirt-Front" component={ProductList} />
-          <Route path="/details" component={Details} /> 
-          <Route path="/cart" component={Cart} />
+          <Route exact path="/Shirt-Front/" component={ProductList} />
+          <Route path="/Shirt-Front/details" component={Details} /> 
+          <Route path="/Shirt-Front/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
 
