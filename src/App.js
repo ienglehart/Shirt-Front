@@ -20,6 +20,7 @@ class App extends Component {
           <Route exact path="/Shirt-Front" component={ProductList} />
           <Route path="/Shirt-Front/details" component={Details} /> 
           <Route path="/Shirt-Front/cart" component={Cart} />
+          {/* <Route path="/Shirt-Front/login" component= {Login} /> */}
           <Route component={Default} />
         </Switch>
 

@@ -9,13 +9,13 @@ export default class Navbar extends Component {
     render() {
         return(
             <NavWrap className="navbar navbar-expand-sm navbar-dark px-sm-5">
-                <Link to='/'>
+                <Link to='/Shirt-Front/'>
                     <img src={logo} alt="store" width="50" height="50" className="navbar-brand" />
                 </Link>
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link">
+                        <Link to="/Shirt-Front/" className="nav-link">
                             products
                         </Link>
                     </li>
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                     </ButtonContainer>
                 </Link>
 
-                <Link to="/cart" className="nav-item text-inline m-auto my-auto px-2">
+                <Link to="/Shirt-Front/cart" className="nav-item text-inline m-auto my-auto px-2">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus" />
