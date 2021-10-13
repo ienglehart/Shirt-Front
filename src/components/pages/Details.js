@@ -13,8 +13,8 @@ export default class Details extends Component {
             value.detailProduct;
 
             return (
-              <div className="row m-5">
-                  <div className="col-10 mx-auto text-center text-slanter text-blue my-5">
+              <div className="row m-4 details-pg">
+                  <div className="col-10 mx-auto text-center text-slanter text-blue my-5 text-capitalize">
                     <h1>
                       {title}
                     </h1>
@@ -31,7 +31,7 @@ export default class Details extends Component {
                         </strong>
                       </h4>
                       <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                          some info about product:
+                          Product Info:
                       </p>
                       <p className="text-muted lead">
                         {info}

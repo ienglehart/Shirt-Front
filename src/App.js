@@ -8,7 +8,8 @@ import Details from './components/pages/Details';
 import Cart from './components/pages/cart/Cart';
 import Footer from './components/features/Footer';
 import Default from './components/pages/Default';
-import Login from './components/pages/Login';
+import Contact from './components/pages/contact';
+
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/Shirt-Front" component={ProductList} />
           <Route path="/Shirt-Front/details" component={Details} /> 
           <Route path="/Shirt-Front/cart" component={Cart} />
+          <Route path="/Shirt-Front/contact" component={Contact} />
           {/* <Route path="/Shirt-Front/login" component= {Login} /> */}
           <Route component={Default} />
         </Switch>

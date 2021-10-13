@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
 export default class Footer extends Component {
     render() {
+        var style = {
+            backgroundColor: "var(--mainBlue)", //Mainblue from variables. idk if i can import that here
+            color: "var(--lightBlue)",
+            textAlign: "center",
+            padding: "20px",
+            position: "fixed",
+            left: "0",
+            bottom: "0",
+            height: "60px",
+            width: "100%",
+        }
+        
+        var phantom = {
+          display: 'block',
+          padding: '20px',
+          height: '60px',
+          width: '100%',
+        }
         return (
-            <FootStyle className="text-center p-3">
-                <div>Fueled by Beans</div>
-            </FootStyle>
+            <div>
+            <div style={phantom}></div>
+            <div style={style}>Fueled by Beans :)</div>
+            </div>
         )
     }
 }
 
-const FootStyle = styled.div`
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: var(--mainBlue);
-    color: white;
-`;

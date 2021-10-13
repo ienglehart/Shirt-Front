@@ -147,6 +147,10 @@ class ProductProvider extends Component {
         this.addTotals(); 
       })
     }
+
+    checkout = () => {
+      alert("Not currently actually selling shirts, email a request or check back later and i might be!")
+    }
   
     addTotals = () => {
         let subTotal = 0;

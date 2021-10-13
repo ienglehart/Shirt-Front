@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import {ButtonContainer} from '../components/Buttons';
-import logo from '../../shirt logo icon.svg';
+import logo from '../img/PlanB-Logo.png';
 
 
 export default class Navbar extends Component {
@@ -15,8 +15,8 @@ export default class Navbar extends Component {
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/Shirt-Front/" className="nav-link">
-                            products
+                        <Link to="/Shirt-Front/" className="nav-link nav-link-home">
+                            Shop
                         </Link>
                     </li>
                 </ul>
@@ -25,9 +25,9 @@ export default class Navbar extends Component {
                 {/* Login and Cart Links aligned to right of navbar */}
                 <div className = "ml-auto row">
 
-                <Link to="/login" className="nav-item text-inline m-auto my-auto px-2">
+                <Link to="/Shirt-Front/contact" className="nav-item text-inline m-auto my-auto px-2">
                     <ButtonContainer>
-                        /Contact Soon/
+                        Contact
                     </ButtonContainer>
                 </Link>
 
