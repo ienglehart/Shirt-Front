@@ -4,12 +4,14 @@
   --mainWhite: #f3f3f3;
   --mainDark: #323528;
   --mainYellow: #E9C46A;
-  --mainOrang: #F4A261;
+  --mainOrang: #ffdbbd;
+  --lightYellow: #fff3d4;
+  --bg: #fff9e9;
 }
 
 body{
   font-family:'Times new roman', Courier, monospace;
-  background: var(--mainWhite) !important;
+  background: var(--bg) !important;
   color: var(--mainDark) !important;
 }
 
@@ -45,8 +47,6 @@ body{
 .text-bright{
   color:var(--lightBlue);
 }
-
-/*Nav CSS*/
 
 /* Contact Section CSS */
 .contact-title{

@@ -56,5 +56,8 @@ const NavWrap = styled.nav`
         font-size: 1.3rem;
         text-transform:capitalize;
     }
+    .nav-item{
+        font-size: small;
+    }
 `;
 

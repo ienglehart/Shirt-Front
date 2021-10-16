@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/features/Nav';
 import ProductList from './components/pages/ProductList';
 import Details from './components/pages/Details';

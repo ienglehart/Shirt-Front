@@ -11,6 +11,7 @@ export default function Title({name,title}) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         position: "relative",
+        borderRadius: "3px"
     }
     var titleStyle = {
         display: 'flex',

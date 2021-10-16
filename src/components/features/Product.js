@@ -39,7 +39,7 @@ export default class Product extends Component {
                 </div>
               )}
           </ProductConsumer>
-          <div className="card-footer d-flex justify-content-between">
+          <div className="card-footer d-flex justify-content-between ">
               <p className="align-self-center mb-0">
                 {title}
               </p>
@@ -67,6 +67,7 @@ Product.propTypes = {
 
 const ProductWrapper = styled.div`
     .card {
+      background: var(--lightYellow);
       border-color: transparent;
       transition: all .5s linear;
     }
@@ -74,6 +75,7 @@ const ProductWrapper = styled.div`
       background: transparent;
       border-top: transparent;
       transition: all .5s linear;
+      background-color: var(--mainOrang);
     }
     &:hover {
       .card {
@@ -81,7 +83,7 @@ const ProductWrapper = styled.div`
         box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2)
       }
       .card-footer {
-        background: rgba(247, 247, 247);
+        background: var(--mainYellow);
       }
     }
     .img-container {
