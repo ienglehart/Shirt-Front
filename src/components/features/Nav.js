@@ -9,13 +9,13 @@ export default class Navbar extends Component {
     render() {
         return(
             <NavWrap className="navbar navbar-expand-sm navbar-dark px-sm-5">
-                <Link to='/Shirt-Front/'>
+                <Link to='/'>
                     <img src={logo} alt="store" width="50" height="50" className="navbar-brand" />
                 </Link>
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/Shirt-Front/" className="nav-link nav-link-home">
+                        <Link to="/" className="nav-link nav-link-home">
                             Shop
                         </Link>
                     </li>
@@ -25,13 +25,13 @@ export default class Navbar extends Component {
                 {/* Login and Cart Links aligned to right of navbar */}
                 <div className = "ml-auto row">
 
-                <Link to="/Shirt-Front/contact" className="nav-item text-inline m-auto my-auto px-2">
+                <Link to="/contact" className="nav-item text-inline m-auto my-auto px-2">
                     <ButtonContainer>
                         Contact
                     </ButtonContainer>
                 </Link>
 
-                <Link to="/Shirt-Front/cart" className="nav-item text-inline m-auto my-auto px-2">
+                <Link to="/cart" className="nav-item text-inline m-auto my-auto px-2">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus" />

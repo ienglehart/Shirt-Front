@@ -17,10 +17,10 @@ class App extends Component {
         <Nav />
 
         <Switch>
-          <Route exact path="/Shirt-Front" component={ProductList} />
-          <Route path="/Shirt-Front/details" component={Details} /> 
-          <Route path="/Shirt-Front/cart" component={Cart} />
-          <Route path="/Shirt-Front/contact" component={Contact} />
+          <Route exact path="/" component={ProductList} />
+          <Route path="/details" component={Details} /> 
+          <Route path="/cart" component={Cart} />
+          <Route path="/contact" component={Contact} />
           {/* <Route path="/Shirt-Front/login" component= {Login} /> */}
           <Route component={Default} />
         </Switch>
