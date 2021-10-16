@@ -2,7 +2,6 @@
   "name": "shirt-store",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
   "homepage": "http://ienglehart.github.io/Shirt-Front/",
   "engines": {
     "node": "14.17.0"
