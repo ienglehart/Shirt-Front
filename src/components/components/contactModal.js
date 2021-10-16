@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from 'react-bootstrap/button';
+import {BigButtonContainer} from './Buttons';
 import emailjs from 'emailjs-com';
 
 export default class ModalForm extends Component {
@@ -49,9 +49,9 @@ export default class ModalForm extends Component {
         </Modal.Body>
 
         <Modal.Footer>
-            <Button variant="primary" type="submit" onClick={() => this.props.handleSubmit(this.state.name)} >
+            <BigButtonContainer variant="primary" type="submit" onClick={() => this.props.handleSubmit(this.state.name)} >
             Send 
-            </Button>
+            </BigButtonContainer>
         </Modal.Footer>
 
     </Modal>
