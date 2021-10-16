@@ -4,6 +4,9 @@
   "private": true,
   "proxy": "http://localhost:3000",
   "homepage": "http://ienglehart.github.io/Shirt-Front/",
+  "engines": {
+    "node": "14.17.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
