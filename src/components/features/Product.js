@@ -69,12 +69,12 @@ const ProductWrapper = styled.div`
     .card {
       background: var(--lightYellow);
       border-color: transparent;
-      transition: all .5s linear;
+      transition: all .3s linear;
     }
     .card-footer {
       background: transparent;
       border-top: transparent;
-      transition: all .5s linear;
+      transition: all .3s linear;
       background-color: var(--mainOrang);
     }
     &:hover {
@@ -91,7 +91,7 @@ const ProductWrapper = styled.div`
       overflow: hidden;
     }
     .card-img-top {
-      transition: all .5s linear;
+      transition: all .3s linear;
     }
     .img-container:hover .card-img-top{
       transform: scale(1.2);
@@ -107,7 +107,7 @@ const ProductWrapper = styled.div`
       font-size: 1.4rem;
       border-radius: 0.5rem 0 0 0;
       transform: translate(100%, 100%);
-      transition: all .5s linear;
+      transition: all .3s linear;
     }
     .img-container: hover .cart-btn {
       transform: translate(0,0);

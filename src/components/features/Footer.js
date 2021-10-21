@@ -23,7 +23,7 @@ export default class Footer extends Component {
         return (
             <div>
             <div style={phantom}></div>
-            <div style={style}>Fueled by Beans :)</div>
+            <div style={style}>Plan B 2021</div>
             </div>
         )
     }
